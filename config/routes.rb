@@ -10,6 +10,9 @@
 #
 
 DecklistTracker::Application.routes.draw do
+  devise_for :users
+
   resources :deckpacks
   match '/' => redirect('/deckpacks')
+  root to: 'deckpacks#index'
 end
