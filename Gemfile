@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails'
+gem 'devise'
 gem 'haml-rails'
 gem 'jquery-datatables-rails'
 gem 'jquery-rails'
