@@ -1,0 +1,474 @@
+# == Schema Information
+#
+# Table name: deckpacks
+#
+#  id           :integer          not null, primary key
+#  name         :string(255)
+#  cards        :text
+#  created_at   :datetime
+#  updated_at   :datetime
+#  lock_version :integer          default(0)
+#
+
+Ancient Wilds:
+    name: Ancient Wilds
+    cards:
+      - Acidic Slime
+      - Ambassador Oak
+      - Awakener Druid
+      - Beast Within
+      - Bond Beetle
+      - Briarpack Alpha
+      - Caller of the Claw
+      - Carven Caryatid
+      - Decree of Savagery
+      - Elderscale Wurm
+      - Elvish Visionary
+      - Erratic Portal
+      - Eternal Witness
+      - Fauna Shaman
+      - Gaea's Revenge
+      - Giant Growth
+      - Gigantomancer
+      - Herd Gnarr
+      - Joraga Warcaller
+      - Lurking Predators
+      - Manaplasm
+      - Momentous Fall
+      - Natural Order
+      - Overrun
+      - Pelakka Wurm
+      - Primal Surge
+      - Primordial Sage
+      - Ring of Kalonia
+      - Roaring Primadox
+      - Soul of the Harvest
+      - Spawnwrithe
+      - Stingerfling Spider
+      - Taunting Elf
+      - Terastodon
+      - Thornweald Archer
+      - Thragtusk
+      - Vengevine
+      - Wild Pair
+      - Wolfbriar Elemental
+      - Wood Elves
+      - Wurmweaver Coil
+      - Yeva, Nature's Herald
+      - Yeva's Forcemage
+
+Born of Flame:
+    name: Born of Flame
+    cards:
+      - Beacon of Destruction
+      - Blaze
+      - Chain Reaction
+      - Chandra's Fury
+      - Chandra's Outrage
+      - Chandra's Phoenix
+      - Chandra's Spitfire
+      - Cone of Flame
+      - Disaster Radius
+      - Dragon Hatchling
+      - Dragon Mage
+      - Earthquake
+      - Fiery Hellhound
+      - Fireblast
+      - Fire Elemental
+      - Fire Servant
+      - Firewing Phoenix
+      - Flamebreak
+      - Flame Slash
+      - Flames of the Blood Hand
+      - Flames of the Firebrand
+      - Flame Wave
+      - Furnace of Rath
+      - Furnace Whelp
+      - Hostility
+      - Inferno Titan
+      - Lightning Bolt
+      - Magma Phoenix
+      - Obsidian Fireheart
+      - Prodigal Pyromancer
+      - Pyre Charger
+      - Rain of Embers
+      - Red Sun's Zenith
+      - Ruby Medallion
+      - Searing Blaze
+      - Searing Spear
+      - Skarrgan Firebird
+      - Sulfuric Vortex
+      - Swiftfoot Boots
+      - Torch Fiend
+      - Worldfire
+
+
+Celestial Light:
+  name: Celestial Light
+  cards:
+      - Ajani's Mantra
+      - Ajani's Pridemate
+      - Ajani's Sunstriker
+      - Angel's Feather
+      - Archon of Redemption
+      - Baneslayer Angel
+      - Basilisk Collar
+      - Beacon of Immortality
+      - Cathedral Sanctifier
+      - Celestial Force
+      - Celestial Mantle
+      - Chastise
+      - Day of Judgment
+      - Divine Favor
+      - Elixir of Immortality
+      - Felidar Sovereign
+      - Goldenglow Moth
+      - Kemba's Skyguard
+      - Knight of Meadowgrain
+      - Kor Cartographer
+      - Landbind Ritual
+      - Lone Missionary
+      - Loxodon Warhammer
+      - Marshal's Anthem
+      - Moment of Heroism
+      - Peace Strider
+      - Pearl Medallion
+      - Purity
+      - Recumbent Bliss
+      - Rhox Faithmender
+      - Seraph of Dawn
+      - Serra Ascendant
+      - Serra Avatar
+      - Slith Ascendant
+      - Solemn Offering
+      - Soul Warden
+      - Swell of Courage
+      - Swords to Plowshares
+      - Well of Lost Dreams
+      - White Sun's Zenith
+
+Crosswinds:
+  name: Crosswinds
+  cards:
+      - Archaeomancer
+      - Arm with Aether
+      - Azure Mage
+      - Blatant Thievery
+      - Bribery
+      - Call to Mind
+      - Cancel
+      - Cast Through Time
+      - Cerulean Sphinx
+      - Curiosity
+      - Day of the Dragons
+      - Dehydration
+      - Disperse
+      - Distortion Strike
+      - Favorable Winds
+      - Flow of Ideas
+      - Fog Bank
+      - Followed Footsteps
+      - Future Sight
+      - Goliath Sphinx
+      - Gravitational Shift
+      - Hydrosurge
+      - Keep Watch
+      - Kraken Hatchling
+      - Mana Leak
+      - Panoptic Mirror
+      - Recurring Insight
+      - Repulse
+      - Ring of Evos Isle
+      - Rite of Replication
+      - Skywinder Drake
+      - Sleight of Hand
+      - Sphinx-Bone Wand
+      - Sphinx of Lost Truths
+      - Spiketail Drake
+      - Spiketail Hatchling
+      - Talrand's Evocation
+      - Talrand, Sky Summoner
+      - Tidings
+      - Time Reversal
+      - Time Stretch
+      - Time Warp
+      - Twincast
+
+Dream Puppets:
+  name: Dream Puppets
+  cards:
+      - Aether Adept
+      - Archive Trap
+      - Body Double
+      - Cephalid Broker
+      - Chancellor of the Spires
+      - Clone
+      - Counterspell
+      - Crippling Chill
+      - Dreamborn Muse
+      - Dream Fracture
+      - Font of Mythos
+      - Forced Fruition
+      - Grindclock
+      - Grindstone
+      - Hedron Crab
+      - Howling Mine
+      - Icy Manipulator
+      - Into the Roil
+      - Isleback Spawn
+      - Jace's Erasure
+      - Jace's Phantasm
+      - Mind Control
+      - Mind Sculpt
+      - Prosperity
+      - Sands of Delirium
+      - Sapphire Medallion
+      - Scalpelexis
+      - Sleep
+      - Stroke of Genius
+      - Sturmgeist
+      - Sword of Body and Mind
+      - Telemin Performance
+      - Thought Scour
+      - Tome Scour
+      - Traumatize
+      - Unsummon
+      - Vedalken Entrancer
+      - Visions of Beyond
+      - Wheel and Deal
+
+Exalted Darkness:
+  name: Exalted Darkness
+  cards:
+      - Akrasan Squire
+      - Angelic Benediction
+      - Angel of Despair
+      - Aven Squire
+      - Battlegrace Angel
+      - Cathedral of War
+      - Child of Night
+      - Daggerclaw Imp
+      - Darklit Gargoyle
+      - Deathbringer Liege
+      - Debtor's Knell
+      - Demonic Tutor
+      - Divinity of Pride
+      - Doom Blade
+      - Duskmantle Prowler
+      - Duty-Bound Dead
+      - Evolving Wilds
+      - Guardians of Akrasa
+      - Knight of Glory
+      - Knight of Infamy
+      - Mark of Asylum
+      - Mighty Leap
+      - Mortify
+      - Nefarox, Overlord of Grixis
+      - No Mercy
+      - Pacifism
+      - Pillory of the Sleepless
+      - Ring of Xathrid
+      - Royal Assassin
+      - Seize the Initiative
+      - Servant of Nefarox
+      - Sigil of Distinction
+      - Silent Arbiter
+      - Spirit Mantle
+      - Sublime Archangel
+      - Sword of Vengeance
+      - Tormented Soul
+      - Unmake
+      - Vindicate
+      - Whispersilk Cloak
+      - Worship
+
+Goblin Gangland:
+  name: Goblin Gangland
+  cards:
+      - Arms Dealer
+      - Battle-Rattle Shaman
+      - Blisterstick Shaman
+      - Chancellor of the Forge
+      - Clickslither
+      - Ember Hauler
+      - Gempalm Incinerator
+      - Goblin Arsonist
+      - Goblin Artillery
+      - Goblin Assault
+      - Goblin Balloon Brigade
+      - Goblin Bushwhacker
+      - Goblin Chieftain
+      - Goblin Dynamo
+      - Goblin Fire Fiend
+      - Goblin Fireslinger
+      - Goblin Goon
+      - Goblin Grenade
+      - Goblin Guide
+      - Goblin Offensive
+      - Goblin Piker
+      - Goblin Piledriver
+      - Goblin Ringleader
+      - Goblin Roughrider
+      - Goblin Warchief
+      - Goblin Wardriver
+      - Goblin War Strike
+      - Krenko, Mob Boss
+      - Krenko's Command
+      - Lavafume Invoker
+      - Lowland Oaf
+      - Mindmoil
+      - Rage Reflection
+      - Raging Goblin
+      - Reckless One
+      - Relentless Assault
+      - Ring of Valkas
+      - Rummaging Goblin
+      - Shock
+      - Siege-Gang Commander
+      - Smelt
+      - Squee, Goblin Nabob
+      - Thunder-Thrash Elder
+      - Voracious Dragon
+      - Warren Instigator
+
+Obedient Dead:
+  name: Obedient Dead
+  cards:
+      - Avatar of Woe
+      - Befoul
+      - Blister Beetle
+      - Bloodhunter Bat
+      - Corrupt
+      - Crippling Blight
+      - Diabolic Tutor
+      - Dread
+      - Dread Warlock
+      - Exsanguinate
+      - Fume Spitter
+      - Grave Titan
+      - Griselbrand
+      - Halo Hunter
+      - Hellcarver Demon
+      - Icy Manipulator
+      - Incremental Blight
+      - Infest
+      - Innocent Blood
+      - Jet Medallion
+      - Last Kiss
+      - Liliana's Shade
+      - Liliana's Specter
+      - Massacre Wurm
+      - Mire's Toll
+      - Murder
+      - Mutilate
+      - Nantuko Shade
+      - Nekrataal
+      - Nested Ghoul
+      - Nightmare
+      - Nightmare Incursion
+      - Nightwing Shade
+      - Pestilence Demon
+      - Phage the Untouchable
+      - Phyrexian Obliterator
+      - Plague Wind
+      - Public Execution
+      - Reiver Demon
+      - Rise from the Grave
+      - Rune-Scarred Demon
+      - Sign in Blood
+      - Tendrils of Corruption
+      - Underworld Dreams
+      - Vampire Nighthawk
+      - Veilborn Ghoul
+      - Warpath Ghoul
+      - Xathrid Gorgon
+
+Pack Instinct:
+  name: Pack Instinct
+  cards:
+      - Ant Queen
+      - Avenger of Zendikar
+      - Biorhythm
+      - Blanchwood Armor
+      - Boundless Realms
+      - Bountiful Harvest
+      - Brindle Boar
+      - Chameleon Colossus
+      - Cultivate
+      - Dungrove Elder
+      - Emerald Medallion
+      - Epic Proportions
+      - Fangren Firstborn
+      - Fog
+      - Garruk's Companion
+      - Garruk's Packleader
+      - Genesis Wave
+      - Howl of the Night Pack
+      - Incremental Growth
+      - Indrik Stomphowler
+      - Jayemdae Tome
+      - Khalni Hydra
+      - Leatherback Baloth
+      - Lightning Greaves
+      - Master of the Wild Hunt
+      - Nature's Lore
+      - Obstinate Baloth
+      - Predatory Rampage
+      - Prey Upon
+      - Primal Bellow
+      - Primalcrux
+      - Primal Huntbeast
+      - Primeval Titan
+      - Primordial Hydra
+      - Rampaging Baloths
+      - Sentinel Spider
+      - Terra Stomper
+      - Timbermaw Larva
+      - Ulvenwald Tracker
+      - Verdant Force
+      - Vinelasher Kudzu
+      - Vorapede
+      - Wildheart Invoker
+
+Peacekeepers:
+  name: Peacekeepers
+  cards:
+      - Accorder Paladin
+      - Archangel
+      - Archon of Justice
+      - Attended Knight
+      - Captain of the Watch
+      - Captain's Call
+      - Crusader of Odric
+      - Dawn Elemental
+      - Doomed Traveler
+      - Elgaud Inquisitor
+      - Elite Vanguard
+      - Fiend Hunter
+      - Flickerwisp
+      - Geist-Honored Monk
+      - Glorious Anthem
+      - Guardians' Pledge
+      - Honor of the Pure
+      - Intrepid Hero
+      - Journey to Nowhere
+      - Loyal Sentry
+      - Mass Calcify
+      - Master Decoy
+      - Mausoleum Guard
+      - Midnight Guard
+      - Nightguard Patrol
+      - Oblivion Ring
+      - Odric, Master Tactician
+      - Pacifism
+      - Pennon Blade
+      - Raise the Alarm
+      - Ring of Thune
+      - Safe Passage
+      - Sigil of the New Dawn
+      - Spectral Rider
+      - Spirit of the Hearth
+      - Squadron Hawk
+      - Sun Titan
+      - Turn the Tables
+      - Windborne Charge

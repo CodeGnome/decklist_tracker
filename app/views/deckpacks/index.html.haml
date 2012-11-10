@@ -1,0 +1,10 @@
+- content_for :title, 'Deck Packs'
+
+%h1= yield(:title)
+
+%table#dataTable
+  %thead
+    %tr
+      %th Deck Pack
+  %tbody
+    = render partial: @deckpacks

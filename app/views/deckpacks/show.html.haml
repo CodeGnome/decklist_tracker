@@ -1,0 +1,14 @@
+- content_for :title, @name
+
+%h1= yield(:title)
+
+%table#dataTable
+  %thead
+    %tr
+      %th Card Name
+  %tbody
+    - @cards.each do |card|
+      %tr
+        %td
+          %a(href="#{DeckpacksHelper::SEARCH_URL}#{query_term card}")
+            = card

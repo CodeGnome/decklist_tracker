@@ -1,0 +1,31 @@
+// vim: sw=2
+
+nav {
+  line-height:1.75em;
+  color:#000;
+  border:2px solid #000;
+  text-align:right;
+  vertical-align:baseline;
+  background:#BDE;
+  margin:1.5em 0 2em;
+  padding:1em;
+}
+
+nav a {
+  color:blue;
+  text-decoration:none;
+  letter-spacing:.10em;
+  font-weight:700;
+  padding:.25em;
+}
+
+nav a:hover {
+  color:red;
+}
+
+nav #domain {
+  float:left;
+  font-weight:900;
+  font-variant:small-caps;
+  font-size:larger;
+}
