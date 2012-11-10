@@ -9,5 +9,8 @@
     = csrf_meta_tags
   %body
     = render partial: 'layouts/nav'
+    - flash.each do |key, value|
+      = content_tag :p, value, class: key
+    %h1= yield(:title)
     = yield
     = render partial: 'layouts/footer'
